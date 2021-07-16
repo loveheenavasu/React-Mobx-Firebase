@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, Grid, IconButton, Menu, MenuItem, TextField, Typography } from '@material-ui/core'
+import React from 'react'
+import { Checkbox, FormControl, FormControlLabel, FormGroup, Grid, IconButton, Menu, MenuItem } from '@material-ui/core'
 import FilterListIcon from '@material-ui/icons/FilterList';
 import SortByAlphaIcon from '@material-ui/icons/SortByAlpha';
 import AddBtn from '../../AddBtutton/AddBtn';
 import { carArray } from "../../../common/constant"
 import { useStyles } from "./style"
 export default function Filter_Sorting(props) {
-    const {  anchorEl, setAnchorEl, handleChecked ,setAddCarData } = props;
+    const {anchorEl, setAnchorEl, handleChecked} = props;
     const handleClose = () => {
         setAnchorEl(null)
     }

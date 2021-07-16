@@ -14,7 +14,6 @@ class CarStore {
   };
  
   setCar = (car, id) => {
-    console.log("sdfghjkl;l'", car,id)
     if (!this.cars) {
       this.cars = {};
     }
